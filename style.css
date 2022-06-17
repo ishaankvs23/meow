@@ -1,0 +1,28 @@
+body
+{
+    background-color: yellow;
+}
+h1{
+    color: rgb(88, 134, 35);
+    background-color: aliceblue;
+}
+#show_doodles{
+    float:right;
+}
+canvas{
+    border: 50px solid white;
+    border-radius: 20px;
+    animation-name:snoopy ;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+}
+@keyframes  snoopy {
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px grey;}
+}
+p{
+    padding-top:10px;
+    font-size:25px;
+}
+
